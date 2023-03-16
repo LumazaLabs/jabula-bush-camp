@@ -1896,6 +1896,11 @@ video {
     padding-bottom: 5rem;
   }
 
+  .md\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .md\:pt-0{
     padding-top: 0px;
   }
