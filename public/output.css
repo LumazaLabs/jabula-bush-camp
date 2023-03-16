@@ -517,12 +517,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.background-img {
-  background-image: url("./public/images/hero-1.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .btn-inactive {
   letter-spacing: 2px;
   border-radius: 24px;
@@ -921,6 +915,10 @@ video {
   gap: 1rem;
 }
 
+.gap-5{
+  gap: 1.25rem;
+}
+
 .gap-6{
   gap: 1.5rem;
 }
@@ -1090,18 +1088,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[\'url\(\.\/images\/hero-1\.webp\)\'\]{
-  background-color: 'url(./images/hero-1.webp)';
-}
-
-.bg-\[\'url\(\'\.\/images\/hero-1\.webp\'\)\'\]{
-  background-color: 'url('./images/hero-1.webp')';
-}
-
-.bg-\[rgba\(0\2c 0\2c 0\2c 0\.5\)\]{
-  background-color: rgba(0,0,0,0.5);
-}
-
 .bg-opacity-30{
   --tw-bg-opacity: 0.3;
 }
@@ -1214,16 +1200,6 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.py-24{
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
-.py-32{
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
 .pb-2{
   padding-bottom: 0.5rem;
 }
@@ -1252,6 +1228,10 @@ video {
   padding-top: 0.5rem;
 }
 
+.pt-24{
+  padding-top: 6rem;
+}
+
 .pt-4{
   padding-top: 1rem;
 }
@@ -1266,10 +1246,6 @@ video {
 
 .pt-8{
   padding-top: 2rem;
-}
-
-.pt-24{
-  padding-top: 6rem;
 }
 
 .text-left{
@@ -1448,6 +1424,16 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-red-800{
+  --tw-text-opacity: 1;
+  color: rgb(153 27 27 / var(--tw-text-opacity));
+}
+
+.text-red-600{
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
 .underline{
   text-decoration-line: underline;
 }
@@ -1538,11 +1524,6 @@ video {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-jabula:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(80 83 55 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-jabula-light:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(204 206 182 / var(--tw-bg-opacity));
@@ -1561,6 +1542,11 @@ video {
 .hover\:text-jabula:hover{
   --tw-text-opacity: 1;
   color: rgb(80 83 55 / var(--tw-text-opacity));
+}
+
+.hover\:text-jabula-light:hover{
+  --tw-text-opacity: 1;
+  color: rgb(204 206 182 / var(--tw-text-opacity));
 }
 
 .hover\:text-white:hover{
@@ -1791,10 +1777,6 @@ video {
 
   .md\:h-24{
     height: 6rem;
-  }
-
-  .md\:h-screen{
-    height: 100vh;
   }
 
   .md\:w-2\/3{
