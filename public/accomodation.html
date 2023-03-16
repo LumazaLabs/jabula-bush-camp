@@ -193,7 +193,7 @@
             Glamping Tents
           </h3>
           <div
-            class="pt-8 px-8 md:px-0 grid grid-1-cols grid-rows-3 md:grid-cols-3 md:grid-rows-1 gap-10"
+            class="pt-8 md:px-0 grid grid-1-cols grid-rows-3 md:grid-cols-3 md:grid-rows-1 gap-10"
           >
             <img class="w-full h-auto" src="images/outside_pool.webp" />
             <img class="w-full h-auto" src="images/lounge.webp" />
@@ -635,7 +635,7 @@
             Camping Tents
           </h3>
           <div
-            class="pt-8 px-8 md:px-0 grid grid-1-cols grid-rows-3 md:grid-cols-3 md:grid-rows-1 gap-10"
+            class="pt-8 grid grid-1-cols grid-rows-3 md:grid-cols-3 md:grid-rows-1 gap-10"
           >
             <img class="w-full h-auto" src="images/camp-1.webp" />
             <img class="w-full h-auto" src="images/outdoor_shower.webp" />
@@ -813,13 +813,13 @@
               to get in touch.
             </p>
           </div>
-          <div class="mt-8 max-w-5xl mx-auto">
+          <div class="mt-8 max-w-5xl mx-auto hidden lg:block">
             <table class="w-full">
               <thead class="">
                 <tr class="px-4 border-b-2">
                   <th class="px-4 py-3 text-left">
                     <p
-                      class="mt-3 text-lg md:text-xl font-semibold tracking-wide text-gray-900"
+                      class="mt-3 text-base md:text-xl font-semibold tracking-wide text-gray-900"
                     >
                       TIME YEAR
                     </p>
@@ -827,21 +827,21 @@
 
                   <th class="px-4 py-3 text-left">
                     <p
-                      class="mt-3 text-lg md:text-xl font-semibold tracking-wide text-gray-900 text-right"
+                      class="mt-3 text-base md:text-xl font-semibold tracking-wide text-gray-900 text-right"
                     >
                       CAMP SITE
                     </p>
                   </th>
                   <th class="px-4 py-3 text-left">
                     <p
-                      class="mt-3 text-lg md:text-xl font-semibold tracking-wide text-gray-900 text-right"
+                      class="mt-3 text-base md:text-xl font-semibold tracking-wide text-gray-900 text-right"
                     >
                       CHILDREN (6-12 YRS)
                     </p>
                   </th>
                   <th class="px-4 py-3 text-left">
                     <p
-                      class="mt-3 text-lg md:text-xl font-semibold tracking-wide text-gray-900 text-right"
+                      class="mt-3 text-base md:text-xl font-semibold tracking-wide text-gray-900 text-right"
                     >
                       ADULTS
                     </p>
@@ -945,6 +945,85 @@
                 </tr>
               </tbody>
             </table>
+          </div>
+
+          <!-- xs to lg -->
+          <div
+            class="block mt-12 border-t border-b border-gray-200 divide-y divide-gray-200 lg:hidden"
+          >
+            <div class="grid grid-cols-3 items-center divide-x divide-gray-200">
+              <div class="px-2 py-2 sm:px-4">
+                <p class="mt-2 text-base font-semibold text-gray-900">
+                  CAMP SITE
+                </p>
+              </div>
+
+              <div class="px-2 py-2 sm:px-4">
+                <p class="mt-2 text-base font-semibold text-gray-900">
+                  CHILDREN (6-12YRS)
+                </p>
+              </div>
+
+              <div class="px-2 py-2 sm:px-4">
+                <p class="mt-2 text-base font-semibold text-gray-900">ADULTS</p>
+              </div>
+            </div>
+
+            <div class="px-2 py-4 sm:px-4">
+              <p class="text-base font-medium text-gray-900">Normal Weekend</p>
+            </div>
+
+            <div class="grid grid-cols-3 divide-x divide-gray-200">
+              <div class="px-2 py-2 sm:px-4">
+                <p class="mt-2 text-base font-semibold text-gray-900">R55</p>
+              </div>
+
+              <div class="px-2 py-2 sm:px-4">
+                <p class="mt-2 text-base font-semibold text-gray-900">R75</p>
+              </div>
+
+              <div class="px-2 py-2 sm:px-4">
+                <p class="mt-2 text-base font-semibold text-gray-900">R210</p>
+              </div>
+            </div>
+
+            <div class="px-2 py-4 sm:px-4">
+              <p class="text-base font-medium text-gray-900">
+                Long Weekends & Holidays
+              </p>
+            </div>
+
+            <div class="grid grid-cols-3 divide-x divide-gray-200">
+              <div class="px-2 py-2 sm:px-4">
+                <p class="mt-2 text-base font-semibold text-gray-900">R55</p>
+              </div>
+
+              <div class="px-2 py-2 sm:px-4">
+                <p class="mt-2 text-base font-semibold text-gray-900">R95</p>
+              </div>
+
+              <div class="px-2 py-2 sm:px-4">
+                <p class="mt-2 text-base font-semibold text-gray-900">R230</p>
+              </div>
+            </div>
+
+            <div class="px-2 py-4 sm:px-4">
+              <p class="text-base font-medium text-gray-900">Mon-Thurs</p>
+            </div>
+
+            <div class="grid grid-cols-3 divide-x divide-gray-200">
+              <div class="px-2 py-2 sm:px-4">
+                <p class="mt-2 text-base font-semibold text-gray-900">R55</p>
+              </div>
+
+              <div class="px-2 py-2 sm:px-4">
+                <p class="mt-2 text-base font-semibold text-gray-900">R60</p>
+              </div>
+
+              <div class="px-2 py-2 sm:px-4">
+                <p class="mt-2 text-base font-semibold text-gray-900">R160</p>
+              </div>
+            </div>
           </div>
 
           <!-- Below Pricing Section -->
