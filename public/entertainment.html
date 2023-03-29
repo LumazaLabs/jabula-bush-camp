@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PJQ4ZN85WZ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-PJQ4ZN85WZ");
+    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,6 +23,14 @@
     <meta
       name="description"
       content="There is a world of things to do during your stay here with us. From Self Game Drives to Safari boats, your trip will be nothing but memorable."
+    />
+    <meta
+      name="og:title"
+      content="There is a world of things to do during your stay here with us. From Self Game Drives to Safari boats, your trip will be nothing but memorable."
+    />
+    <meta
+      name="og:image"
+      content="https:lumazalabs.github.io/jabula-bush-camp/public/images/logo.webp"
     />
     <title>Things to do | Jabula Bush Camp</title>
   </head>
@@ -1068,7 +1090,7 @@
             </p>
 
             <div
-              class="flex flex-col mt-8 sm:mt-8 sm:space-y-0 sm:space-x-5 sm:flex-row"
+              class="flex flex-col mt-8 sm:mt-8 gap-y-3 sm:space-x-5 sm:flex-row"
             >
               <a
                 href="https://book.nightsbridge.com/31849"
@@ -1077,6 +1099,14 @@
                 target="_blank"
                 rel="noopener"
                 >Book Now
+              </a>
+              <a
+                href="accomodation.html"
+                title="View our various accomodation options"
+                class="inline-block font-semibold rounded-2xl text-md px-10 py-3 text-center text-white transition-all duration-200 ring-jabula-light ring-2 ring-inset hover:ring-offset-2 hover:ring-offset-transparent focus:ring-offset-2 focus:ring-offset-transparent"
+                target="_blank"
+                rel="noopener"
+                >Accomodation
               </a>
             </div>
           </div>
@@ -1160,16 +1190,6 @@
                   class="flex text-sm font-normal text-gray-900 transition-all duration-200 transform hover:translate-x-1"
                 >
                   Accomodation
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="accomodation.html#rates"
-                  title="View prices for accomodation at Jabula Bush Camp"
-                  class="flex text-sm font-normal text-gray-900 transition-all duration-200 transform hover:translate-x-1"
-                >
-                  Rates
                 </a>
               </li>
 

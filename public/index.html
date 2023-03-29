@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PJQ4ZN85WZ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-PJQ4ZN85WZ");
+    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,11 +24,20 @@
       name="description"
       content="Jabula is a private family owned bush camp in the heart of the Dinokeng Game Reserve where the Big Five roam free."
     />
+    <meta
+      name="og:description"
+      content="Jabula is a private family owned bush camp in the heart of the Dinokeng Game Reserve where the Big Five roam free."
+    />
+    <meta name="og:title" content="Your home in the Wild | Jabula Bush Camp" />
+    <meta
+      name="og:image"
+      content="https:lumazalabs.github.io/jabula-bush-camp/public/images/logo.webp"
+    />
     <title>Your home in the wild | Jabula Bush Camp</title>
   </head>
   <body>
-    <div class="relative bg-[url('./images/hero-1.webp')] bg-cover h-screen">
-      <div class="absolute h-full w-full bg-[rgba(0,0,0,0.45)]"></div>
+    <div class="relative bg-[url('./images/new_bg.webp')] bg-cover h-screen">
+      <div class="absolute h-full w-full bg-[rgba(0,0,0,0.40)]"></div>
       <heade class="relative">
         <!-- lg+ -->
         <div class="relative bg-transparent max-w-7xl mx-auto">
@@ -161,7 +184,7 @@
 
       <!-- HERO  -->
 
-      <section class="pt-24 lg:py-40 lg:pt-44 2xl:pt-56 2xl:pb-60 relative">
+      <section class="pt-24 lg:py-40 lg:pt-40 2xl:pt-48 2xl:pb-60 relative">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div class="text-center md:text-left md:w-2/3 text-white">
             <h1
@@ -521,7 +544,7 @@
               <div class="flex flex-col lg:relative cursor-pointer">
                 <div>
                   <img
-                    src="images/lion-gallery.webp"
+                    src="images/outdoor-area.webp"
                     class="object-cover w-full"
                     loading="lazy"
                     alt="Lions seen on a self game drive"
@@ -533,7 +556,7 @@
                   <h4
                     class="text-xl text-center md:text-2xl lg:text-3xl text-white font-bold uppercase"
                   >
-                    Lions on a self-game drive
+                    Our outdoor group area
                   </h4>
                 </div>
               </div>
@@ -610,34 +633,10 @@
           </div>
           <div class="will-change-transform translate-y-0">
             <article class="relative">
-              <div class="flex flex-col lg:relative cursor-pointer">
-                <div>
-                  <img
-                    src="images/watering-hole.webp"
-                    class="object-cover w-full"
-                    loading="lazy"
-                    alt="Watering hole close to the camp"
-                  />
-                </div>
-                <div
-                  class="flex items-center flex-col gap-3 justify-center bg-[rgba(0,0,0,0.45)] bottom-0 absolute right-0 top-0 transition-opacity w-full h-full opacity-0 hover:opacity-100 focus:opacity-100 text-white p-5"
-                >
-                  <h4
-                    class="text-xl text-center md:text-2xl lg:text-3xl text-white font-bold uppercase"
-                  >
-                    Watering hole close to the camp
-                  </h4>
-                </div>
-              </div>
-            </article>
-          </div>
-
-          <div class="will-change-transform translate-y-0">
-            <article class="relative">
               <a class="flex flex-col lg:relative cursor-pointer">
                 <div class="">
                   <img
-                    src="images/camp-2.webp"
+                    src="images/campsite.webp"
                     loading="lazy"
                     class="object-cover w-full"
                     alt="Leopard on a game drive"
@@ -655,6 +654,29 @@
               </a>
             </article>
           </div>
+          <div class="will-change-transform translate-y-0">
+            <article class="relative">
+              <div class="flex flex-col lg:relative cursor-pointer">
+                <div>
+                  <img
+                    src="images/bathroom_2.webp"
+                    class="object-cover w-full"
+                    loading="lazy"
+                    alt="Watering hole close to the camp"
+                  />
+                </div>
+                <div
+                  class="flex items-center flex-col gap-3 justify-center bg-[rgba(0,0,0,0.45)] bottom-0 absolute right-0 top-0 transition-opacity w-full h-full opacity-0 hover:opacity-100 focus:opacity-100 text-white p-5"
+                >
+                  <h4
+                    class="text-xl text-center md:text-2xl lg:text-3xl text-white font-bold uppercase"
+                  >
+                    A look into one of our bathrooms
+                  </h4>
+                </div>
+              </div>
+            </article>
+          </div>
         </div>
       </div>
     </section>
@@ -669,7 +691,7 @@
           <div class="md:order-2">
             <img
               class="w-full rounded-md"
-              src="images/glamping.webp"
+              src="images/bedroom_1.webp"
               alt="An outside look of one of our glamping tents"
             />
           </div>
@@ -793,16 +815,6 @@
                   class="flex text-sm font-normal text-gray-900 transition-all duration-200 transform hover:translate-x-1"
                 >
                   Accomodation
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="accomodation.html#rates"
-                  title="View prices for accomodation at Jabula Bush Camp"
-                  class="flex text-sm font-normal text-gray-900 transition-all duration-200 transform hover:translate-x-1"
-                >
-                  Rates
                 </a>
               </li>
 
