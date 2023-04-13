@@ -318,13 +318,14 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4">
                   <div>
                     <label for="name" class="text-base font-medium text-white">
-                      Your name
+                      Your name <span class="text-jabula-light">*</span>
                     </label>
                     <div class="mt-2.5 relative">
                       <input
                         type="text"
                         name="name"
                         placeholder="Enter your full name"
+                        required
                         class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-white rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
                       />
                       <input
@@ -337,7 +338,7 @@
 
                   <div class="md:row-start-2">
                     <label for="email" class="text-base font-medium text-white">
-                      Email address
+                      Email address <span class="text-jabula-light">*</span>
                     </label>
                     <div class="mt-2.5 relative">
                       <input
@@ -345,6 +346,7 @@
                         name="email"
                         placeholder="Enter your email address"
                         class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-white rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
+                        required
                       />
                     </div>
                   </div>
@@ -354,12 +356,13 @@
                       for="phonenumber"
                       class="text-base font-medium text-white"
                     >
-                      Phone number
+                      Phone number <span class="text-jabula-light">*</span>
                     </label>
                     <div class="mt-2.5 relative">
                       <input
                         type="tel"
                         name="phonenumber"
+                        required
                         placeholder="Enter your phone number"
                         class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-white rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
                       />
@@ -371,7 +374,7 @@
                       for="message"
                       class="text-base font-medium text-white"
                     >
-                      Message
+                      How can we help you?
                     </label>
                     <div class="mt-2.5 relative">
                       <textarea
@@ -383,13 +386,11 @@
                     </div>
                   </div>
 
-                  <button class="sm:col-span-2">
-                    <input
-                      type="submit"
-                      value="Submit"
-                      class="inline-flex items-center justify-center w-full px-4 py-4 mt-2 text-base font-semibold text-jabula transition-all duration-200 bg-jabula-light border border-transparent rounded-2xl focus:outline-none hover:opacity-80 focus:opacity-80 cursor-pointer"
-                    />
-                  </button>
+                  <input
+                    type="submit"
+                    value="Submit"
+                    class="inline-flex items-center justify-center w-full px-4 py-4 mt-2 text-base font-semibold text-jabula transition-all duration-200 bg-jabula-light border border-transparent rounded-2xl focus:outline-none hover:opacity-80 focus:opacity-80 cursor-pointer sm:col-span-2"
+                  />
                 </div>
               </form>
             </div>
